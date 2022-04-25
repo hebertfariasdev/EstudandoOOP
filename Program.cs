@@ -9,10 +9,33 @@ namespace EstudandoOOP
     {
         static void Main(string[] args)
         {
+            //AULA 05 - AGREGAÇÃO
+
+            CartaoDeCredito cdc = new CartaoDeCredito();
+            Cliente cliente1 = new Cliente();
+
+            //Adicionado nome do cliente
+            cliente1.Nome = "Jão das Neves";
+
+            //Adicionando o numero e data de validade do cartao
+            cdc.Numero = "123456789987";
+            cdc.DataDeValidade = "08/2025";
+            cdc.Cliente = cliente1;
+
+            Console.WriteLine("O nome do cliente é: " + cliente1.Nome);
+            Console.WriteLine("O numero do cartao é: " + cdc.Numero);
+            Console.WriteLine("O data de validade do cartao é: " + cdc.DataDeValidade);
+            Console.WriteLine("O nome do cliente agregado do cartao é: " + cdc.Cliente.Nome);
+
+
+            /*
+             *          ATÉ A AULA 04:
+             * 
+             * 
             Console.WriteLine("Aprendendo OOP!\n");
 
             //Criando instância da conta
-            Conta conta = new Conta();
+            Conta conta = new Conta(123, 300);
 
             conta.AdicionarLimite(1500);
 
@@ -28,17 +51,11 @@ namespace EstudandoOOP
             if (sacar)
             {
                 conta.ImprimirSaldo();
-                Console.WriteLine("Seu limite atual é: R$" + conta.Limite + "\n");
+                Console.WriteLine("Seu limite atual é: R$" + conta.Limite);
+                Console.WriteLine("O numero da sua conta é: " + conta.Numero + "\n");
             }
-            
-            conta.ImprimirSaldo();
-            bool sacar1 = conta.Sacar(1738);
+            */
 
-            if (sacar1)
-            {
-                conta.ImprimirSaldo();
-                Console.WriteLine("Seu limite atual é: R$" + conta.Limite + "\n");
-            }
 
             Console.ReadLine();
         }

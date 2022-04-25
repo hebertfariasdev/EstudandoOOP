@@ -7,11 +7,16 @@ namespace EstudandoOOP
 {
     public class Conta
     {
+        public Conta(int numero, double limite)
+        {
+            this.Numero = numero;
+            this.Limite = limite;
+        }
         private double Saldo { get; set; }
 
         public double Limite { get; private set; }
 
-        public int Numero { get; set; }
+        public int Numero { get; private set; }
 
         public void Depositar(double valor)
         {
