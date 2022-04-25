@@ -1,0 +1,7 @@
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\bin\Debug\EstudandoOOP.exe.config
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\bin\Debug\EstudandoOOP.exe
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\bin\Debug\EstudandoOOP.pdb
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\obj\Debug\EstudandoOOP.csproj.AssemblyReference.cache
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\obj\Debug\EstudandoOOP.csproj.CoreCompileInputs.cache
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\obj\Debug\EstudandoOOP.exe
+C:\Users\Mypalm Erick\source\repos\EstudandoOOP\EstudandoOOP\obj\Debug\EstudandoOOP.pdb
