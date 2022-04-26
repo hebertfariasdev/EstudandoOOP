@@ -9,7 +9,26 @@ namespace EstudandoOOP
     {
         static void Main(string[] args)
         {
-            //AULA 05 - AGREGAÇÃO
+            Console.WriteLine("Aprendendo OOP!\n");
+
+            //AULA 06 - Métodos e Atributos Estáticos
+
+            Conta conta1 = new Conta(253, 500);
+            Conta conta2 = new Conta(456, 600);
+            Conta conta3 = new Conta(654, 750);
+            Conta conta4 = new Conta(789, 900);
+            Conta conta5 = new Conta(915, 1000);
+
+            //Um Atribuito/Método estático sempre é chamado atraves de sua classe
+            //Exemplo: " Conta.TotalContasCriadas "
+            int proximoTotal = Conta.ProximoTotalContasCriadas();
+
+            Console.WriteLine("Total de contas: " + Conta.TotalContasCriadas);
+            Console.WriteLine("Proximo total de contas: " + proximoTotal);
+
+            /*
+             * 
+             * //AULA 05 - AGREGAÇÃO
 
             CartaoDeCredito cdc = new CartaoDeCredito();
             Cliente cliente1 = new Cliente();
@@ -26,13 +45,12 @@ namespace EstudandoOOP
             Console.WriteLine("O numero do cartao é: " + cdc.Numero);
             Console.WriteLine("O data de validade do cartao é: " + cdc.DataDeValidade);
             Console.WriteLine("O nome do cliente agregado do cartao é: " + cdc.Cliente.Nome);
-
+            */
 
             /*
              *          ATÉ A AULA 04:
              * 
              * 
-            Console.WriteLine("Aprendendo OOP!\n");
 
             //Criando instância da conta
             Conta conta = new Conta(123, 300);

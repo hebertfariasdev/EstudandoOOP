@@ -11,12 +11,25 @@ namespace EstudandoOOP
         {
             this.Numero = numero;
             this.Limite = limite;
+            Conta.TotalContasCriadas++;
+            Conta.ProximoTotalContasCriadas();
+
+            //Um Atribuito/Método estático sempre é chamado atraves de sua classe ao seu Construtor
+            //Exemplo: " Conta.TotalContasCriadas "
+
         }
         private double Saldo { get; set; }
 
         public double Limite { get; private set; }
 
         public int Numero { get; private set; }
+
+        public static int TotalContasCriadas { get; set; }
+
+        public static int ProximoTotalContasCriadas()
+        {
+            return Conta.TotalContasCriadas + 1;
+        }
 
         public void Depositar(double valor)
         {
