@@ -18,7 +18,8 @@ namespace EstudandoOOP
             //Exemplo: " Conta.TotalContasCriadas "
 
         }
-        private double Saldo { get; set; }
+
+        protected double Saldo { get; set; }
 
         public double Limite { get; private set; }
 

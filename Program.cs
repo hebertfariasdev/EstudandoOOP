@@ -11,6 +11,30 @@ namespace EstudandoOOP
         {
             Console.WriteLine("Aprendendo OOP!\n");
 
+            //Aula 07 - Herança
+            ContaPoupanca contaPoupanca = new ContaPoupanca(112, 0);
+
+            contaPoupanca.Depositar(100);
+            contaPoupanca.Sacar(10);
+
+            double saldo = contaPoupanca.ConsultarSaldo();
+
+            contaPoupanca.MostrarNumeroConta();
+            Console.WriteLine("Saldo da conta poupança é: " + saldo);
+
+            Console.WriteLine();
+
+            Conta conta = new Conta(113, 100);
+
+            conta.Depositar(500);
+            conta.Sacar(140);
+
+            double saldoContaCorrente = conta.ConsultarSaldo();
+            Console.WriteLine("Saldo da conta corrente é: " + saldoContaCorrente);
+
+
+
+            /*
             //AULA 06 - Métodos e Atributos Estáticos
 
             Conta conta1 = new Conta(253, 500);
@@ -25,6 +49,8 @@ namespace EstudandoOOP
 
             Console.WriteLine("Total de contas: " + Conta.TotalContasCriadas);
             Console.WriteLine("Proximo total de contas: " + proximoTotal);
+            */
+
 
             /*
              * 
