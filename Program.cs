@@ -11,6 +11,7 @@ namespace EstudandoOOP
         {
             Console.WriteLine("Aprendendo OOP!\n");
 
+            /*
             //Aula 07 - Herança
             ContaPoupanca contaPoupanca = new ContaPoupanca(112, 0);
 
@@ -31,8 +32,7 @@ namespace EstudandoOOP
 
             double saldoContaCorrente = conta.ConsultarSaldo();
             Console.WriteLine("Saldo da conta corrente é: " + saldoContaCorrente);
-
-
+            */
 
             /*
             //AULA 06 - Métodos e Atributos Estáticos
