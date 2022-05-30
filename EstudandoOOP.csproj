@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalistaDeTI.cs" />
     <Compile Include="CartaoDeCredito.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Conta.cs" />
     <Compile Include="ContaPoupanca.cs" />
     <Compile Include="Gerente.cs" />
+    <Compile Include="GerenteDeAgencia.cs" />
+    <Compile Include="GerenteDeTI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

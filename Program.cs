@@ -11,6 +11,39 @@ namespace EstudandoOOP
         {
             Console.WriteLine("Aprendendo OOP!\n");
 
+            AnalistaDeTI analistaDeTI = new AnalistaDeTI();
+            Gerente gerente = new Gerente();
+            GerenteDeAgencia gerenteDeAgencia = new GerenteDeAgencia();
+            GerenteDeTI gerenteDeTI = new GerenteDeTI();
+
+            analistaDeTI.Nome = "Beto";
+            analistaDeTI.Salario = 3000;
+
+            Console.WriteLine("Salario do analista de TI " + analistaDeTI.Nome + " é: R$" + analistaDeTI.Salario);
+            analistaDeTI.Reajustar();
+            Console.WriteLine("______________________________________________________________________");
+
+            gerente.Nome = "Jão";
+            gerente.Salario = 4000;
+
+            Console.WriteLine("Salario do gerente " + gerente.Nome + " é: R$" + gerente.Salario);
+            gerente.Reajustar();
+            Console.WriteLine("______________________________________________________________________");
+
+            gerenteDeAgencia.Nome = "Zé";
+            gerenteDeAgencia.Salario = 8000;
+
+            Console.WriteLine("Salario do gerente de Agencia " + gerenteDeAgencia.Nome + " é: R$" + gerenteDeAgencia.Salario);
+            gerenteDeAgencia.Reajustar();
+            Console.WriteLine("______________________________________________________________________");
+
+            gerenteDeTI.Nome = "Chico";
+            gerenteDeTI.Salario = 10000;
+
+            Console.WriteLine("Salario do gerente de TI " + gerenteDeTI.Nome + " é: R$" + gerenteDeTI.Salario);
+            gerenteDeTI.Reajustar();
+            Console.WriteLine("______________________________________________________________________");
+
             /*
             //Aula 07 - Herança
             ContaPoupanca contaPoupanca = new ContaPoupanca(112, 0);

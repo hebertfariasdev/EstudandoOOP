@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace EstudandoOOP
 {
-    public class Gerente : Funcionario
+    public class GerenteDeTI : Funcionario
     {
         public override void Reajustar()
         {
-            this.Salario += 1000;
-            Console.WriteLine("Salario reajustado do gerente é: R$" + Salario);
+            this.Salario += 2000;
+            Console.WriteLine("Salario reajustado do Gerente de TI é: R$" + Salario);
         }
     }
 }
